@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+/* li {
+  list-style-type: none;
+} */
+
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: start;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
